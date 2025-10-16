@@ -3,7 +3,6 @@ title: Default Title
 version: master
 nav:
   - modules/ROOT/nav.adoc
-
 asciidoc:
   attributes:
     lab_name: "I'm the lab_name var"
