@@ -1,7 +1,7 @@
 ---
 site:
-  title: Showroom Template Demo
-  url: https://redhat-scholars.github.io/course-template
+  title: Getting Started with the Self-Service Automation Portal
+  url: https://goetzrieger.github.io/aap26-selfservice-policyenforcement/modules
   start_page: modules::index.adoc
 
 content:

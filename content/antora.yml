@@ -1,11 +1,11 @@
 name: modules
-title: Default Title
+title: Getting Started with the Self-Service Automation Portal
 version: master
 nav:
   - modules/ROOT/nav.adoc
 asciidoc:
   attributes:
-    lab_name: "I'm the lab_name var"
+    lab_name: "Getting Started with the Self-Service Automation Portal"
     release-version: master
     page-pagination: true
     my_var: "foo"

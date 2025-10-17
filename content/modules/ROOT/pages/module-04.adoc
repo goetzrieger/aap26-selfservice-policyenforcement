@@ -1,0 +1,18 @@
+== Use Cases
+
+As a first exercise let's see how a Job Template Survey will show up in the Self-Service Portal. Again we won't provide step-by-step instructions but just the outline what you have to do:
+
+* As admin user in AAP, add a Survey to the duplicated Job Template user1 is allowed to execute
+* There is not a lot of sensible things you could add here to the demo Playbook, this is just for learning purposes
+* E.g. add a Survey that provides some multiple-choice options... whatever suits you ;-)
+* Don't forget to enable the Survey
+
+Now in the Self-Service Portal as user admin resync the Job Templates again.
+
+[NOTE]
+====
+The Self-Service Portal syncs users and other entities on a regular, configurable schedule. To speed things up we do this manually here
+====
+
+If you now run the Job Template in Self-Service Portal as user `user1` you will first get the Survey like you would expect in AAP, too.
+
