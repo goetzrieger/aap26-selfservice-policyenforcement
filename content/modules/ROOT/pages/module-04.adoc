@@ -1,5 +1,7 @@
 == Use Cases
 
+=== Use a Survey
+
 As a first exercise let's see how a Job Template Survey will show up in the Self-Service Portal. Again we won't provide step-by-step instructions but just the outline what you have to do:
 
 * As admin user in AAP, add a Survey to the duplicated Job Template user1 is allowed to execute
@@ -15,4 +17,16 @@ The Self-Service Portal syncs users and other entities on a regular, configurabl
 ====
 
 If you now run the Job Template in Self-Service Portal as user `user1` you will first get the Survey like you would expect in AAP, too.
+
+=== Custom Templates
+
+WIP
+
+If you would like to use custom templates, you must link an external Source Control Management (SCM) system to self-service automation portal. This basically means you must generate a Personal Access Token for authentication. Self-service automation portal supports GitHub and GitLab SCMs.
+
+Adding a Personal Access Token for the supported SMCs is documented https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.6/html/installing_self-service_automation_portal/self-service-preinstall-config_aap-self-service-install#self-service-generate-scm-tokens_self-service-preinstall-config[here]
+
+Then follow the instructions for using custom https://docs.redhat.com/pt-br/documentation/red_hat_ansible_automation_platform/2.6/html/using_self-service_automation_portal/self-service-working-templates_aap-self-service-using[templates].
+
+
 
